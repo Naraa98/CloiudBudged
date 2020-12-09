@@ -1,0 +1,676 @@
+body {
+    margin: 0px;
+    width: 100%;
+    min-width: 1200px;
+}
+
+.heroColor {
+    height: 782px;
+    width: 100%;
+    background: linear-gradient(60deg, rgba(0, 0, 61, 0.8) 0%, rgba(100, 81, 60, 0.6) 90%);
+}
+
+.heroImg {
+    width: 100%;
+    background: url(../img/Rectangle.jpg) no-repeat;
+    background-size:100% ;
+}
+
+.navCenter {
+    display: flex;
+    padding: 60px 0px;
+    width: 100%;
+}
+
+.logo {
+
+    display: flex;
+    padding: 9px;
+    margin-right: 10px;
+}
+
+.logoImg {
+    padding: 0px 10px 0px 150px;
+}
+
+.logoText h6 {
+    margin: 0px;
+    color: white;
+    font-size: 15px;
+    line-height: 22px;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+
+}
+
+.navBar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+
+    text-align: center;
+    line-height: 17px;
+
+}
+
+.navBar li {
+    margin: 0px;
+}
+
+.navBar {
+    margin: auto;
+}
+
+
+.navBar a {
+    padding-left: 20px;
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-decoration-line: unset;
+}
+
+.langSelect {
+    display: flex;
+
+}
+
+.flag {
+
+    width: 32px;
+    height: 32px;
+    padding-top: 3px;
+    background: url(../img/flaag.png) no-repeat;
+}
+
+.language {
+    padding-top: 9px;
+    margin-left: 5px;
+}
+
+.lang_Select {
+    background: inherit;
+    color: white;
+    border: inherit;
+    width: 40px;
+
+}
+
+::selection {
+    color: white;
+}
+
+.login_button {
+    background: inherit;
+    border: 1px solid white;
+    padding: 10px 20px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    border-radius: 4px;
+
+}
+
+.loginButton {
+    padding: 0px 160px 0px 10px;
+}
+
+.CloudTitle h1 {
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-top: 150px;
+    font-style: normal;
+    line-height: 86px;
+    font-size: 72px;
+    color: #ffffff;
+    letter-spacing: 0.5mm;
+}
+
+.CloudTitle p {
+    color: #ffffff;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+.sign_Button {
+    background: white;
+    color: #353463;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    text-transform: uppercase;
+    padding: 17px 53px;
+    border-radius: 6px;
+    border: none;
+}
+
+.CloudButton {
+    width: 165px;
+    margin:auto;
+    margin-top: 30px;
+}
+
+.VideoSection {
+    display: flex;
+    padding: 94px 165px;
+    background: #FFFFFF;
+    position: relative;
+}
+
+.VideoText h6 {
+    font-family: sans-serif;
+    font-size: 36px;
+    line-height: 40px;
+    margin: 36px 0px;
+    color: #000000;
+}
+
+.VideoText p {
+    margin: 24px 0px;
+    font-family: tahoma;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.textButton {
+    background: inherit;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #313161;
+    border: none;
+}
+
+.videiBg {
+    display: flex;
+}
+
+.Video_Section {
+    width: 445px;
+    height: 311px;
+    margin-left: 110px;
+    background: url(../img/Video_bg.png) no-repeat;
+
+}
+
+
+.playButt {
+    width: 66px;
+    height: 66px;
+    border: none;
+    border-radius: 100px;
+    background: url(../img/pllaybutton.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 110px 0px 110px -40px;
+
+}
+
+.FeaturesBg {
+    background-color: #848282;
+    padding-top: 21px;
+    height: 530px;
+}
+
+.FeaturesBg h1 {
+
+    font-family: tahoma;
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 43px;
+}
+
+.cardBlocks {
+    display: flex;
+    /* padding: 20px 165px 200px 165px; */
+    width: 1010px;
+    margin: auto;
+}
+
+.cardBlockLeft {
+    margin-right: 30px;
+    background: url(../img/Bg.png) no-repeat;
+    width: 350px;
+    height: 250px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+}
+
+.TextBlockLeft {
+    background-color: white;
+    padding: 33px 32px;
+    margin: 157px 29px 0px 29px;
+    border-radius: 8px;
+    box-shadow: 1px 2px 11px 0px #FFFFFF;
+}
+
+.TextBlockLeft h1 {
+    color: #010101;
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 22px;
+}
+
+.TextBlockLeft p {
+    color: #010101;
+    margin: 20px 0px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 18px;
+}
+
+.cardBlock {
+
+    margin-right: 30px;
+    background: url(../img/Bgg.png) no-repeat;
+    width: 350px;
+    height: 250px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+}
+
+.TextBlock {
+    background-color: white;
+    margin: 157px 29px 0px 29px;
+    padding: 33px 32px;
+    border-radius: 8px;
+    -webkit-box-shadow: 7px 5px 11px 0px #FFFFFF;
+}
+
+.TextBlock h1 {
+    color: #010101;
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 22px;
+}
+
+.TextBlock p {
+    color: #010101;
+    margin: 20px 0px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 18px;
+}
+
+.cardBlockRight {
+    background: url(../img/Bggg.png) no-repeat;
+    width: 350px;
+    height: 250px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+}
+
+.TextBlockRight {
+    background-color: white;
+    padding: 33px 32px;
+    margin: 157px 29px 0px 29px;
+    border-radius: 8px;
+    -webkit-box-shadow: 7px 5px 11px 0px #FFFFFF;
+}
+
+.TextBlockRight h1 {
+    color: #010101;
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 22px;
+}
+
+.TextBlockRight p {
+    color: #010101;
+    margin: 20px 0px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 18px;
+}
+
+.textButtons {
+    background: inherit;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #313161;
+    border: none;
+    text-align: center;
+    padding: 0px 65px;
+}
+
+.Technology {
+    background: #F3F3F3;
+    padding: 63px 240px 150px 240px;
+}
+
+.Technology h1 {
+
+    font-family: Tahoma;
+    font-size: 36px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 43px;
+    text-align: center;
+}
+
+.TechnologyBlocks {
+    display: flex;
+}
+
+.block {
+    width: 24%;
+}
+
+.Cloud_Storage {
+    padding-right: 10px;
+    background: url(../img/storageee.png) no-repeat;
+    height: 120px;
+    background-position: center;
+
+}
+
+.Cloud_Storage .storage_icon {
+    background: url(../img/storage.png) no-repeat;
+    width: 53px;
+    height: 40px;
+    margin: auto;
+    margin-top: 67px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.Cloud_Storage h1 {
+    margin: 10px auto;
+    font-family: tahoma;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.Cloud_Storage p {
+    font-family: Verdana;
+    color: #272727;
+    font-size: 12px;
+    text-align: center;
+    line-height: 14px;
+}
+
+.Secure {
+    margin-right: 30px;
+    background: url(../img/secure.png) no-repeat;
+    height: 120px;
+    background-position: center;
+}
+
+.Secure .secureIcon {
+    background: url(../img/SEARCH.png) no-repeat;
+    width: 53px;
+    height: 53px;
+    margin: auto;
+    margin-top: 67px;
+    background-position: center;
+    background-size: cover;
+}
+
+.Secure h1 {
+    margin: auto;
+    font-family: tahoma;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.Secure p {
+    font-family: Verdana;
+    color: #272727;
+    font-size: 12px;
+    text-align: center;
+    line-height: 14px;
+}
+
+.PDF_Download {
+    margin-right: 30px;
+    background: url(../img/pddf.png) no-repeat;
+    height: 120px;
+    background-position: center;
+}
+
+.PDF_Download .PdfIcon {
+    background: url(../img/alo.png) no-repeat;
+    width: 53px;
+    height: 53px;
+    margin: auto;
+    margin-top: 67px;
+    background-position: center;
+    background-size: cover;
+}
+
+.PDF_Download h1 {
+    margin: 10px auto;
+    font-family: tahoma;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.PDF_Download p {
+    font-family: Verdana;
+    color: #272727;
+    font-size: 12px;
+    text-align: center;
+    line-height: 14px;
+}
+
+.CSV_Download {
+    background: url(../img/cssv.png) no-repeat;
+    height: 120px;
+    background-position: center;
+}
+
+.CSV_Download .CsvIcon {
+
+    background: url(../img/alob.png) no-repeat;
+    width: 53px;
+    height: 53px;
+    margin: auto;
+    margin-top: 67px;
+    background-position: center;
+    background-size: cover;
+}
+
+.CSV_Download h1 {
+    margin: 10px auto;
+    font-family: tahoma;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.CSV_Download p {
+    font-family: Verdana;
+    color: #272727;
+    font-size: 12px;
+    text-align: center;
+    line-height: 14px;
+}
+
+.app_download_section {
+    display: flex;
+    padding: 95px 150px;
+    background: #56526F;
+}
+
+.text_block {
+    width: 50%;
+}
+
+.app_download_section .text_block h1 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #ffffffff;
+}
+
+.app_download_section .text_block p {
+    font-family: tahoma;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 20px;
+    color: #ffffffff;
+}
+
+.links_block {
+    display: flex;
+    margin-top: 44px;
+}
+
+.links_block .googleIcon {
+    background: url(../img/google.png) no-repeat;
+    width: 32px;
+    height: 32px;
+    background-position: center;
+    background-size: cover;
+}
+
+.links_block .appleIcon {
+    background: url(../img/apple.png) no-repeat;
+    width: 28px;
+    height: 28px;
+    background-position: center;
+    background-size: cover;
+    margin: 2px 28px;
+}
+
+.links_block .windowsIcon {
+    background: url(../img/windows.png) no-repeat;
+    width: 26px;
+    height: 26px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 5px;
+}
+
+.app_download_section .Video {
+    background: url(../img/Slider.png) no-repeat;
+    height: 311px;
+    width: 50%;
+    background-position: center;
+}
+
+.ContactUs {
+    display: flex;
+    background: #FFFFFF;
+    padding: 78px 150px;
+}
+
+.contactText {
+    width: 33%;
+    margin-right: 140px;
+}
+
+.contactText h1 {
+    font-family: sans-serif;
+    font-size: 36px;
+    line-height: 43px;
+    margin-left: 15px;
+}
+
+.contactText p {
+    font-family: sans-serif;
+    font-size: 14px;
+    margin: 59px 0px 0px 15px;
+}
+.registerField{
+    width: 50%;
+    margin-left: 14%;
+}
+.registerBlocks {
+    display: flex;
+}
+.registerBlocks > div{
+    width: 49%;
+}
+
+.registerBlocks .Name {
+    padding: 21px 53px 21px 31px;
+    margin: 24px 15px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.formitem {
+    width: 97%;
+    padding: 17px 0px 17px 27px;
+    margin: 0px 15px 24px 15px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.SelectService {
+    padding: 21px 399px 21px 31px;
+    margin: 0px 15px 24px 15px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.submitButton {
+    background-color: #56526F;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding: 17px 34px;
+    text-transform: uppercase;
+    display: block;
+    margin: auto;
+    width: 68%;
+}
+
+.single-top-feature {
+    padding: 45px;
+    background-color: #206769;
+}
+
+.single-top-feature p {
+    margin-bottom: 0;
+}
+
+.single-top-feature h5 i {
+    color: #DFF682;
+}
+
